@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int fact(int f)
+{
+    int n;
+    if(f==0)
+    return 1;
+    else
+    n=f*fact(f-1);
+    return n;
+
+}
